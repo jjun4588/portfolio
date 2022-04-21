@@ -20,12 +20,12 @@
         </div>
         <div>
             <ul class="navbar__menu">
-                <li class="navar__menu__item">Home</li>
-                <li class="navar__menu__item">About</li>
-                <li class="navar__menu__item">Skills</li>
-                <li class="navar__menu__item">My work</li>
-                <li class="navar__menu__item">Testimonial</li>
-                <li class="navar__menu__item">Contact</li>
+                <li class="navbar__menu__item active">Home</li>
+                <li class="navbar__menu__item">About</li>
+                <li class="navbar__menu__item">Skills</li>
+                <li class="navbar__menu__item">My work</li>
+                <li class="navbar__menu__item">Testimonial</li>
+                <li class="navbar__menu__item">Contact</li>
             </ul>
         </div>
     </nav>
@@ -135,6 +135,20 @@
                 <p class="job__name">멀티캠퍼스 - 웹 크롤링과 데이터 분석</p>
                 <p class="job__period">2020. 02 ~ 2020. 02</p>
             </div>
+            <div class="job">
+                <div class="job__logo">
+                    <i class="fa-solid fa-certificate"></i>
+                </div>
+                <p class="job__name">(사)한국정보통신진흥협회 - (국가공인)리눅스마스터 2급</p>
+                <p class="job__period">2020. 10 </p>
+            </div>
+            <div class="job">
+                <div class="job__logo">
+                    <i class="fa-solid fa-certificate"></i>
+                </div>
+                <p class="job__name">한국정보통신자격협회 - (국가공인)네트워크관리사 2급</p>
+                <p class="job__period">2020. 05 </p>
+            </div>
         </div>
     </section>
 
@@ -239,17 +253,95 @@
 
     <!-- 경력 -->
     <section id="work">
-
+        <h1>My work</h1>
+        <h3>Projects</h3>
+        <div class="work__categories">
+            <button class="category__btn">ALL<span class="category__count">6</span></button>
+            <button class="category__btn">Job<span class="category__count">1</span></button>
+            <button class="category__btn">College student<span class="category__count">5</span></button>
+        </div>
+        <div class="work__projects">
+            <a href="https://github.com/jjun4588/portfolio" class="project" target="blank">
+                <img class="project__img" src="imgs/projects/Portfolio.png" alt="Portfolio">
+                <div class="project__description">
+                    <h5>Portfolio</h5>
+                    <span>자기소개 사이트</span>
+                </div>
+            </a>
+            <a href="https://github.com/jjun4588/Novice_of_Legend" class="project" target="blank">
+                <img class="project__img" src="imgs/projects/Novice_of_Legend.png" alt="Novice_of_Legend">
+                <div class="project__description">
+                    <h5>Novice_of_Legend</h5>
+                    <span>'League of Legends' 게임을 소개하는 사이트</span>
+                </div>
+            </a>
+            <a href="https://github.com/jjun4588/Learning-Management-System" class="project" target="blank">
+                <img class="project__img" src="imgs/projects/Learning_Management_System.png" alt="Learning_Management_System">
+                <div class="project__description">
+                    <h5>Learning_Management_System</h5>
+                    <span>학사관리 시스템</span>
+                </div>
+            </a>
+            <a href="https://github.com/jjun4588/Gift_Card_Shopping" class="project" target="blank">
+                <img class="project__img" src="imgs/projects/Gift_Card_Shopping.png" alt="Gift_Card_Shopping">
+                <div class="project__description">
+                    <h5>Gift_Card_Shopping</h5>
+                    <span>쇼핑몰 사이트</span>
+                </div>
+            </a>
+            <a href="https://github.com/jjun4588/Cooking_Guide" class="project" target="blank">
+                <img class="project__img" src="imgs/projects/Cooking_Guide.png" alt="Cooking_Guide">
+                <div class="project__description">
+                    <h5>Cooking_Guide</h5>
+                    <span>요리에 관한 정보를 알려주는 사이트</span>
+                </div>
+            </a>
+            <a href="https://github.com/jjun4588/Golden_Time" class="project" target="blank">
+                <img class="project__img" src="imgs/projects/Golden_Time.png" alt="Golden_Time">
+                <div class="project__description">
+                    <h5>Golden_Time</h5>
+                    <span>건강관리 시스템</span>
+                </div>
+            </a>
+        </div>
     </section>
 
     <!-- 추천인 -->
     <section id="testimonials">
-
+        <h1>Testimonials</h1>
+        <h3>See what they say about me</h3>
+        <div class="testimonials">
+            <div class="testimonial">
+                <img src="imgs/testimonial/human.png" alt="People" class="testimonial__avatar">
+                <div class="testimonial__speechBubble">
+                    <p>
+                        코멘트가 생길 예정입니다.
+                    </p>
+                    <p class="name"><a href="">people1</a> / company</p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="imgs/testimonial/human.png" alt="People" class="testimonial__avatar">
+                <div class="testimonial__speechBubble">
+                    <p>
+                        코멘트가 생길 예정입니다.
+                    </p>
+                    <p class="name"><a href="">people2</a> / company</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- 연락처 -->
     <section id="contact">
-
+        <h1 class="contact__title">Let's talk</h1>
+        <h3 class="contact__email">jjun4588@gmail.com</h3>
+        <div class="contact__links">
+            <a href="https://github.com/jjun4588" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+        <p class="contact__rights">2022 IMJUNHO - All rights reserved</p>
     </section>
 
 </body>
