@@ -18,16 +18,14 @@
             <i class="fa-solid fa-splotch"></i>
             <a href="#">Junho</a>
         </div>
-        <div>
             <ul class="navbar__menu">
-                <li class="navbar__menu__item active" data-link="#home">Home</li>
+                <li class="navbar__menu__item" data-link="#home">Home</li>
                 <li class="navbar__menu__item" data-link="#about">About</li>
                 <li class="navbar__menu__item" data-link="#skills">Skills</li>
                 <li class="navbar__menu__item" data-link="#work">My work</li>
                 <li class="navbar__menu__item" data-link="#testimonials">Testimonial</li>
                 <li class="navbar__menu__item" data-link="#contact">Contact</li>
             </ul>
-        </div>
         <!-- Toggle button -->
         <button class="navbar__toggle-btn">
             <i class="fa-solid fa-bars"></i>
@@ -36,10 +34,12 @@
 
     <!-- 자기소개 -->
     <section id="home">
-        <img src="imgs/profile.png" alt="profile" class="home__avatar">
-        <h1 class="home__title">안녕하세요,<br></h1>
-        <h5 class="home__description">중외정보기술 HIS수행팀 연구원 임준호입니다.</h5>
-        <button class="home__contact">CONTACT ME</button>
+        <div class="home__container">
+            <img src="imgs/profile.png" alt="profile" class="home__avatar">
+            <h1 class="home__title">안녕하세요,<br></h1>
+            <h5 class="home__description">중외정보기술 HIS수행팀 연구원 임준호입니다.</h5>
+            <button class="home__contact">CONTACT ME</button>
+        </div>
     </section>
 
     <!-- 나에대해 -->
@@ -171,10 +171,10 @@
                 <div class="skill">
                     <div class="skill__description">
                         <span>JavaScript</span>
-                        <span>40%</span>
+                        <span>30%</span>
                     </div>
                     <div class="skill__bar">
-                        <div class="skill__value" style="width: 40%;"></div>
+                        <div class="skill__value" style="width: 30%;"></div>
                     </div>
                 </div>
                 <div class="skill">
@@ -244,47 +244,47 @@
         <h1>My work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
-            <button class="category__btn active">ALL <span class="category__count">6</span></button>
-            <button class="category__btn">Job <span class="category__count">1</span></button>
-            <button class="category__btn">College student <span class="category__count">5</span></button>
+            <button class="category__btn selected" data-filter="*">ALL <span class="category__count">6</span></button>
+            <button class="category__btn" data-filter="Developer">Developer <span class="category__count">1</span></button>
+            <button class="category__btn" data-filter="College-student">College-student <span class="category__count">5</span></button>
         </div>
         <div class="work__projects">
-            <a href="https://github.com/jjun4588/portfolio" class="project" target="blank">
+            <a href="https://github.com/jjun4588/portfolio" class="project" target="blank" data-type="Developer">
                 <img class="project__img" src="imgs/projects/Portfolio.png" alt="Portfolio">
                 <div class="project__description">
                     <h5>Portfolio</h5>
                     <span>자기소개 사이트</span>
                 </div>
             </a>
-            <a href="https://github.com/jjun4588/Novice_of_Legend" class="project" target="blank">
+            <a href="https://github.com/jjun4588/Novice_of_Legend" class="project" target="blank" data-type="College-student">
                 <img class="project__img" src="imgs/projects/Novice_of_Legend.png" alt="Novice_of_Legend">
                 <div class="project__description">
                     <h5>Novice_of_Legend</h5>
                     <span>'League of Legends' 소개</span>
                 </div>
             </a>
-            <a href="https://github.com/jjun4588/Learning-Management-System" class="project" target="blank">
+            <a href="https://github.com/jjun4588/Learning-Management-System" class="project" target="blank" data-type="College-student">
                 <img class="project__img" src="imgs/projects/Learning_Management_System.png" alt="Learning_Management_System">
                 <div class="project__description">
                     <h5>Learning_Management_System</h5>
                     <span>학사관리 시스템</span>
                 </div>
             </a>
-            <a href="https://github.com/jjun4588/Gift_Card_Shopping" class="project" target="blank">
+            <a href="https://github.com/jjun4588/Gift_Card_Shopping" class="project" target="blank" data-type="College-student">
                 <img class="project__img" src="imgs/projects/Gift_Card_Shopping.png" alt="Gift_Card_Shopping">
                 <div class="project__description">
                     <h5>Gift_Card_Shopping</h5>
                     <span>쇼핑몰 사이트</span>
                 </div>
             </a>
-            <a href="https://github.com/jjun4588/Cooking_Guide" class="project" target="blank">
+            <a href="https://github.com/jjun4588/Cooking_Guide" class="project" target="blank" data-type="College-student">
                 <img class="project__img" src="imgs/projects/Cooking_Guide.png" alt="Cooking_Guide">
                 <div class="project__description">
                     <h5>Cooking_Guide</h5>
                     <span>요리백과 사이트</span>
                 </div>
             </a>
-            <a href="https://github.com/jjun4588/Golden_Time" class="project" target="blank">
+            <a href="https://github.com/jjun4588/Golden_Time" class="project" target="blank" data-type="College-student">
                 <img class="project__img" src="imgs/projects/Golden_Time.png" alt="Golden_Time">
                 <div class="project__description">
                     <h5>Golden_Time</h5>
@@ -334,6 +334,11 @@
         </div>
         <p class="contact__rights">2022 IMJUNHO - All rights reserved</p>
     </section>
+
+    <!-- 위로가기 -->
+    <button class="arrow-up">
+        <i class="fa-solid fa-circle-arrow-up"></i>
+    </button>
 
 </body>
 </html>
