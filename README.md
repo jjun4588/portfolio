@@ -3,4 +3,4 @@ Users/projects
 
 https://jjun4588.github.io/portfolio/
 
-![Portfolio](https://user-images.githubusercontent.com/82712691/165254807-7ebd09ef-5774-4f14-b489-5bf79bc94fc5.PNG)
+![Portfolio2](https://github.com/user-attachments/assets/66f11731-fa83-4165-b045-ec41fc5b39a0)
