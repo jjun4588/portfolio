@@ -158,8 +158,8 @@ p {
 }
 
 .home__avatar {
-    width: 250px;
-    height: 300px;
+    width: 350px;
+    height: 270px;
     border-radius: 50%;
     border: 2px solid var(--color-light-white);
 }
@@ -251,7 +251,11 @@ p {
 
 /* Skill */
 #skills {
-    background-color: var(--color-dark-blue);
+    background-color: var(--color-light-purple);
+}
+
+.skill_Attribute {
+    color: var(--color-black);
 }
 
 .skillset {
@@ -366,7 +370,7 @@ p {
     width: 280px;
     height: 250px;
     margin: 2px;
-    background-color: var(--color-light-white);
+    background-color: var(--color-black);
 }
 
 .project.invisible {

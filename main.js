@@ -87,7 +87,6 @@ setTimeout(() => {
 }, 300);
 });
 
-
 function scrollIntoView(selector) {
     const scrollTo = document.querySelector(selector);
     scrollTo.scrollIntoView({ behavior: 'smooth'});
