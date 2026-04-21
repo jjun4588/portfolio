@@ -158,8 +158,8 @@ p {
 }
 
 .home__avatar {
-    width: 350px;
-    height: 270px;
+    width: 270px;
+    height: 350px;
     border-radius: 50%;
     border: 2px solid var(--color-light-white);
 }
